@@ -1,0 +1,50 @@
+#header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    text-transform: uppercase;
+    font-family: 'Noto Sans KR';
+    padding: 10px 40px;
+    
+    .head1 {
+        display: flex;
+        justify-content: space-between;
+
+        .head1-1 {
+
+            ul li:nth-child(1) {
+                display: inline-block;
+                color: #fff;
+                font-weight: 300;
+                font-size: 30px;
+                font-family: 'Poppins';
+            }
+            ul li:nth-child(2) {
+                color: #fff;
+                font-weight: 300;
+            }
+        }
+        .head1-2 ul {
+            margin-top: 15px;
+            display: flex;
+            font-size: 24px;
+            color: #8B8B8B;
+
+            li:hover {
+                cursor: pointer;
+                transition: all 0.3s;
+                color: #fff;
+            }
+
+            :nth-child(3) {
+                color: #fff;
+            }
+
+            :not(:nth-child(4)) {
+                margin-right: 30px;
+            }
+        }
+    }
+}

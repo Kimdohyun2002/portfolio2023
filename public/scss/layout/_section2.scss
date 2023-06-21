@@ -1,0 +1,81 @@
+#section2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+
+    h1 {
+        display: block;
+        font-family: 'Gmarket Sans';
+        font-weight: 300;
+        font-size: 12vw;
+        color: #A5A5A5;
+        padding: 50px;
+    }
+    .sec2box1 {
+        width: 100%;
+        justify-content: right;
+        padding-right: 40px;
+        display: flex;
+        color: #fff;
+
+        .sec2_text {
+            h3 {
+                padding-left: 20px;
+                padding-top: 20px;
+                font-family: 'NanumSquare Neo OTF';
+                font-size: 2vw;
+                padding-bottom: 10px;
+            }
+            p {
+                padding-left: 20px;
+                padding-top: 20px;
+                font-size: 1vw;
+            }
+        }
+    }
+    .sec2box2 {
+        width: 100%;
+        justify-content: right;
+        padding-right: 40px;
+        display: flex;
+        color: #fff;
+
+        .sec2_text {
+            h3 {
+                padding-left: 20px;
+                padding-top: 20px;
+                font-family: 'NanumSquare Neo OTF';
+                font-size: 2vw;
+                padding-bottom: 10px;
+            }
+            p {
+                padding-left: 20px;
+                padding-top: 20px;
+                font-size: 1vw;
+            }
+        }
+    }
+    .sec2box3 {
+        width: 100%;
+        justify-content: right;
+        padding-right: 40px;
+        display: flex;
+        color: #fff;
+
+        .sec2_text {
+            h3 {
+                padding-left: 20px;
+                padding-top: 20px;
+                font-family: 'NanumSquare Neo OTF';
+                font-size: 2vw;
+                padding-bottom: 10px;
+            }
+            p {
+                padding-left: 20px;
+                padding-top: 20px;
+                font-size: 1vw;
+            }
+        }
+    }
+    
+}
